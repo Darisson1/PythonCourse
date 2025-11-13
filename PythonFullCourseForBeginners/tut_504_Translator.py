@@ -11,17 +11,17 @@ dict = {
     "9" : "Nine",
 }
 
-NumbersToTranslate = input("Give me your numbers: ")
-WrittenNumber = ""
+numbers_to_translate = input("Give me your numbers: ")
+written_number = ""
 
-for number in NumbersToTranslate:
-    WrittenNumber += dict.get(number, "!") + " "
+for number in numbers_to_translate:
+    written_number += dict.get(number, "!") + " "
 
-print(WrittenNumber)
+print(written_number)
 
 #--------------------------
 
-printedMessage = ""
+printed_message = ""
 emojies ={
     ":)" : "😊",
     ":(" : "😕",
@@ -32,5 +32,5 @@ words = message.split(" ") #uses the space as a separator for multiple words
 #print(words)
 
 for word in words:
-    printedMessage += emojies.get(word, word) + " "
-print(printedMessage)
+    printed_message += emojies.get(word, word) + " "
+print(printed_message)

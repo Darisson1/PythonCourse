@@ -14,12 +14,12 @@ else:
 print("Enjoy your day")
 
 price = 1_000_000
-BuyerHasGoodCredit = True
-DownPayment = 0
+buyer_has_good_credit = True
+down_payment = 0
 
-if BuyerHasGoodCredit:
-    DownPayment = 10
+if buyer_has_good_credit:
+    down_payment = 10
 else:
-    DownPayment = 20
+    down_payment = 20
 
-print(f"Down payment: ${price/100*DownPayment}")
+print(f"Down payment: ${price/100*down_payment}")

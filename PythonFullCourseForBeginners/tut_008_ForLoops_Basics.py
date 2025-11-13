@@ -26,7 +26,7 @@ for item in range(1,20,2):
 print("-----")
 
 prices = [10, 20, 30]
-totalCost = 0
+total_cost = 0
 for price in prices:
-    totalCost =+ totalCost+price
-print(f"total price is {totalCost}")
+    total_cost =+ total_cost+price
+print(f"total price is {total_cost}")

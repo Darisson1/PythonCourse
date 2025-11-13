@@ -19,15 +19,15 @@ print(f"modified list: {numbers}")
 
 
 numbers = []
-uniqueNumbers =[]
+unique_numbers =[]
 for x in range(20):
     numbers.append(random.randrange(1,50)) #fill the list with random numbers
 print(f"print original list: {numbers}")
 
 for number in numbers:
-    if number not in uniqueNumbers:
-        uniqueNumbers.append(number)
+    if number not in unique_numbers:
+        unique_numbers.append(number)
     else:
         print(f"multiplied number found: {number}")
         
-print(f"modified list: {uniqueNumbers}")
+print(f"modified list: {unique_numbers}")

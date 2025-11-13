@@ -7,19 +7,19 @@ for x in range(4):
 
 numbers = [5, 2, 5, 2, 2]
 for element in numbers:
-    printString=""
+    print_string=""
     for x in range(element):
-        printString +="x"
-    print(printString)
+        print_string +="x"
+    print(print_string)
     
 print("----")
     
 numbers = [2, 2, 2, 2, 5]
 for element in numbers:
-    printString=""
+    print_string=""
     for x in range(element):
-        printString +="x"
-    print(printString)
+        print_string +="x"
+    print(print_string)
     
     
 # Bis 1:56 h im Video

@@ -17,9 +17,9 @@ print(price)
 
 print("-------")
 
-patientName = "John Smith"
-patientAge = 20
-isNewPatient = True
+patient_name = "John Smith"
+patient_age = 20
+is_new_patient = True
 
 print("------")
 
@@ -35,9 +35,9 @@ print(name + " likes " + color)
 print("------")
 
 
-birthYear = input("Birth year: ")
-print(type(birthYear))
-age = 2025 - int(birthYear)
+birth_year = input("Birth year: ")
+print(type(birth_year))
+age = 2025 - int(birth_year)
 print(age)
 print(type(age))
 

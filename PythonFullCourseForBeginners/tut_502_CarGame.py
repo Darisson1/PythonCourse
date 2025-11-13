@@ -1,5 +1,5 @@
 
-carState = ""
+car_state = ""
 
 while True:
     command_user = input(">").lower() #direkt alles was eingegeben wird klein
@@ -10,16 +10,16 @@ stop - to stop the car
 exit - to exit
         """)
     elif command_user == "start":
-        if carState == "started":
+        if car_state == "started":
             print("Car already started")
         else:
-            carState = "started"
+            car_state = "started"
             print("Car started...Ready to go")
     elif command_user == "stop":
-        if carState == "stopped":
+        if car_state == "stopped":
             print("Car already stopped")
         else:
-            carState = "stopped"
+            car_state = "stopped"
             print("Car stopped")
     elif command_user == "exit":
         print("Exit game...")

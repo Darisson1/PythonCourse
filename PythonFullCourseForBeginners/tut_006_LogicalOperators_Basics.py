@@ -1,15 +1,15 @@
 
-HasHighIncome = True
-HasGoodCredit = False
-HasCriminalRecord = False
+has_high_income = True
+has_good_credit = False
+has_criminial_record = False
 
-if HasHighIncome or HasGoodCredit:
+if has_high_income or has_good_credit:
     print("Eligible for loan 1")
     
-if HasHighIncome and HasGoodCredit:
+if has_high_income and has_good_credit:
     print("Eligible for loan 2")
 
-if HasHighIncome and not HasCriminalRecord:
+if has_high_income and not has_criminial_record:
     print("Eligible for loan 3")
     
 temperature = 30

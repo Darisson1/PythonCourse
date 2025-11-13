@@ -12,7 +12,7 @@ print(numbers.index(2)) #first time at position 2
 
 
 coordinates = (1, 2, 3)
-coordinatesList = [1, 2, 3]
+coordinates_list = [1, 2, 3]
 
 #not the nicest way:
 print(coordinates[0] * coordinates[1] * coordinates[2])
@@ -37,7 +37,7 @@ print(z)
 print(x*y*z)
 
 #works with lists:
-x, y, z = coordinatesList
+x, y, z = coordinates_list
 print(x)
 print(y)
 print(z)
